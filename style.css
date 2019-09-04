@@ -16,7 +16,9 @@ body
 .rectangle
 {
 	width: 960px;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-right: 20px;
 	text-align: center;
 }
 
@@ -30,17 +32,21 @@ body
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 70px;
+	font-size: 55px;
 	width: 600px;
 	text-align: left;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 #zegar
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 70px;
-	text-align: left;
+	font-size: 55px;
+	margin-top: 10px;
+	text-align: right;
+	padding-left: 45px;
 }
 
 .tile1
@@ -104,67 +110,44 @@ body
 {
 	margin: 10px;
 	width: 420px;
-	height: 244px;
+	height: 254px;
 	background-color: #666666;
 	text-align: justify;
-	padding: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-.yt
+.github
 {
 	margin: 10px;
-	width: 105px;
+	width: 230px;
 	height: 142px;
-	background-color: #d94348;
+	background-color: #211f1f;
 	float: left;
 }
 
-.yt:hover
+.github:hover
 {
-	background-color: #c83237;
+	background-color: #100e0e;
 }
 
-.fb
+.linkedin
 {
 	margin: 10px;
-	width: 105px;
+	width: 230px;
 	height: 142px;
 	background-color: #4668b3;
 	float: left;
 }
 
-.fb:hover
+.linkedin:hover
 {
 	background-color: #3557a2;
 }
 
-.gplus
-{
-	margin: 10px;
-	width: 105px;
-	height: 142px;
-	background-color: #d95333;
-	float: left;
-}
 
-.gplus:hover
-{
-	background-color: #c84222;
-}
-
-.tw
-{
-	margin: 10px;
-	width: 105px;
-	height: 142px;
-	background-color: #3095d3;
-	float: left;
-}
-
-.tw:hover
-{
-	background-color: #2084c2;
-}
 
 a.tilelink
 {
